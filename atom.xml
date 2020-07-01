@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://younglighting.github.io</id>
     <title>Gridea</title>
-    <updated>2020-06-30T06:49:29.488Z</updated>
+    <updated>2020-07-01T07:04:25.264Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://younglighting.github.io"/>
     <link rel="self" href="https://younglighting.github.io/atom.xml"/>
@@ -11,44 +11,31 @@
     <icon>https://younglighting.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://younglighting.github.io/post/ce-shi/</id>
-        <link href="https://younglighting.github.io/post/ce-shi/">
+        <title type="html"><![CDATA[桌面美化教程——软媒桌面（mydesk） win端美化]]></title>
+        <id>https://younglighting.github.io/post/zhuo-mian-mei-hua-jiao-cheng-ruan-mei-zhuo-mian-mydesk-win-duan-mei-hua/</id>
+        <link href="https://younglighting.github.io/post/zhuo-mian-mei-hua-jiao-cheng-ruan-mei-zhuo-mian-mydesk-win-duan-mei-hua/">
         </link>
-        <updated>2020-06-30T06:26:35.000Z</updated>
-        <content type="html"><![CDATA[<p>测试1</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://younglighting.github.io/post/hello-gridea/</id>
-        <link href="https://younglighting.github.io/post/hello-gridea/">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <updated>2020-07-01T05:46:14.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="第一步软件下载">第一步：软件下载</h1>
+<p>软媒桌面是从软媒魔方中提取的桌面美化软件，主要用于解决win端桌面杂乱的问题。的Dock栏支持让它拥有了无限可能。话不多说，下载链接如下：<br>
+蓝奏云：https://wwa.lanzous.com/izOlce7bhxc<br>
+天翼云：https://cloud.189.cn/t/Mziy6bqe6rA3<br>
+压缩包内容包括软件和图标包。</p>
+<hr>
+<h1 id="第二步使用">第二步：使用</h1>
+<p>解压完直接双击mydesk.exe，桌面就会出现Dock栏。<br>
+<img src="https://younglighting.github.io/post-images/1593584016901.jpg" alt="" loading="lazy"><br>
+可能你的Dock栏和图片上的不一样，那是因为我进行了一部分的自定义。</p>
+<ul>
+<li>在Dock栏上鼠标右击可以设置皮肤、字体、贴边隐藏等。</li>
+<li>将原先桌面上的快捷方式图标拖动到Dock栏中即可向Dock栏中加入图标。</li>
+<li>Dock栏右击进入图标管理<img src="https://younglighting.github.io/post-images/1593584888709.jpg" alt="" loading="lazy"><br>
+在该面板可以修改程序的图标，可以进行图标的分组（类似于文件夹）。<strong>注意：自行添加图标时需要设置文件的启动位置和路径，找不到可以在原桌面上右击——打开文件所在位置——单击选择程序图标——上方复制路径——回到设置界面粘贴即可。注意路径格式，可以参考已有的图标进行设置。</strong></li>
+<li>压缩包内自带了一些图标，如果觉得图标不够或不好看，可以自行下载图标包解包。</li>
+</ul>
+<h1 id="第三部成果">第三部：成果</h1>
+<p>设置完了就能删除原来桌面的图标啦<br>
+<img src="https://younglighting.github.io/post-images/1593587049796.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
