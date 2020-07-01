@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://younglighting.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-01T07:04:25.264Z</updated>
+    <updated>2020-07-01T07:17:07.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://younglighting.github.io"/>
     <link rel="self" href="https://younglighting.github.io/atom.xml"/>
@@ -18,8 +18,8 @@
         <updated>2020-07-01T05:46:14.000Z</updated>
         <content type="html"><![CDATA[<h1 id="第一步软件下载">第一步：软件下载</h1>
 <p>软媒桌面是从软媒魔方中提取的桌面美化软件，主要用于解决win端桌面杂乱的问题。的Dock栏支持让它拥有了无限可能。话不多说，下载链接如下：<br>
-蓝奏云：https://wwa.lanzous.com/izOlce7bhxc<br>
-天翼云：https://cloud.189.cn/t/Mziy6bqe6rA3<br>
+蓝奏云：<a href="https://wwa.lanzous.com/izOlce7bhxc">https://wwa.lanzous.com/izOlce7bhxc</a><br>
+天翼云：<a href="https://cloud.189.cn/t/Mziy6bqe6rA3">https://cloud.189.cn/t/Mziy6bqe6rA3</a><br>
 压缩包内容包括软件和图标包。</p>
 <hr>
 <h1 id="第二步使用">第二步：使用</h1>
