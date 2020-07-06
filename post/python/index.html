@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://younglighting.github.io/favicon.ico?v=1594032651691">
+<link rel="shortcut icon" href="https://younglighting.github.io/favicon.ico?v=1594045758258">
 <link rel="stylesheet" href="https://younglighting.github.io/styles/main.css">
 
 
@@ -32,7 +32,7 @@ random模块 文件开头导入模块import random，接着secret=random.randint
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://younglighting.github.io">
-        <img src="https://younglighting.github.io/images/avatar.png?v=1594032651691" class="site-logo">
+        <img src="https://younglighting.github.io/images/avatar.png?v=1594045758258" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -93,7 +93,7 @@ random模块 文件开头导入模块import random，接着secret=random.randint
             
             <div class="post-content" v-pre>
               <ul>
-<li>input（） 先打印括号内内容，等用户输入内容再向下兼容</li>
+<li><code>input（）</code> 先打印括号内内容，等用户输入内容再向下兼容</li>
 <li>引入模块
 <ul>
 <li>random模块 文件开头导入模块<code>import random</code>，接着<code>secret=random.randint(1,10)</code>，引入1-10的随机整数。猜数字游戏代码块为下</li>
@@ -124,6 +124,31 @@ while guess!=secret:
                print(&quot;小了小了&quot;)
 print(&quot;game over&quot;)
 </code></pre>
+<ul>
+<li><code>type()</code> 查询数据类型；<code>isinstance（a,b）</code>a表示需要查询的变量，b填入数据类型：int/str/float等，符合则返回True，不符合返回False</li>
+<li>运算符：
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>/ 正常操作</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>a+=1</code>等效为<code>a=a+1</code>，-*/同理</li>
+<li><code>//</code>为整除，只保留整数位；<code>%</code>只保留小数位</li>
+<li><code>**</code>为幂运算<code>a**b</code>为a的b次方，此操作符的优先级比左侧单目操作符高，比右侧单目操作符低：<code>-3**2</code>=9，<code>3**-2</code>=0.11111</li>
+<li>各操作符优先级：<img src="https://younglighting.github.io/post-images/1594044821566.jpg" alt="" title="操作符优先级" loading="lazy"></li>
+<li>008</li>
+</ul>
+</li>
+</ul>
 
             </div>
             
