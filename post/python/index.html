@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea</title>
+<title>Python | Gridea</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,8 +18,12 @@
 
 
 
-    <meta name="description" content="温故而知新">
-    
+    <meta name="description" content="
+input（） 先打印括号内内容，等用户输入内容再向下兼容
+引入模块
+
+random模块 文件开头导入模块import random，接着secret=random.randint(1,10)，引入1-10的随机整数。猜数字游戏代码块为下..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -83,57 +87,60 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://younglighting.github.io/post/python/">
-                  <h2 class="post-title">Python</h2>
-                </a>
-                <div class="post-date">
-                  2020-07-06
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://younglighting.github.io/post/liu-shui-zhang-da-jia-jiu-bie-kan-liao/">
-                  <h2 class="post-title">流水账——大家就别看了</h2>
-                </a>
-                <div class="post-date">
-                  2020-07-04
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://younglighting.github.io/post/zhuo-mian-mei-hua-jiao-cheng-ruan-mei-zhuo-mian-mydesk-win-duan-mei-hua/">
-                  <h2 class="post-title">桌面美化教程——软媒桌面（mydesk） win端美化</h2>
-                </a>
-                <div class="post-date">
-                  2020-07-01
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">Python</h2>
+            <div class="post-date">2020-07-06</div>
+            
+            <div class="post-content" v-pre>
+              <ul>
+<li>input（） 先打印括号内内容，等用户输入内容再向下兼容</li>
+<li>引入模块
+<ul>
+<li>random模块 文件开头导入模块<code>import random</code>，接着<code>secret=random.randint(1,10)</code>，引入1-10的随机整数。猜数字游戏代码块为下</li>
+</ul>
+</li>
+</ul>
+<pre><code>import random
+secret = random.randint(1,10)
+print(&quot;*****i love fishc.com*****&quot;)
+temp = input(&quot;猜个数字?&quot;)
+guess = int(temp)
+if guess == secret: 
+         print (&quot;猜对了&quot;)
+else:
+     if guess&gt;secret:
+               print(&quot;大大大了&quot;)
+     else:
+               print(&quot;小了小了&quot;)              
+while guess!=secret:
+     temp = input(&quot;不对哦，再试一次?&quot;)
+     guess = int(temp)
+     if guess == secret: 
+         print (&quot;猜对了&quot;)
+     else:
+          if guess&gt;secret:
+               print(&quot;大大大了&quot;)
+          else:
+               print(&quot;小了小了&quot;)
+print(&quot;game over&quot;)
+</code></pre>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://younglighting.github.io/post/liu-shui-zhang-da-jia-jiu-bie-kan-liao/">
+                  <h3 class="post-title">
+                    流水账——大家就别看了
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
 
         </div>
       </div>

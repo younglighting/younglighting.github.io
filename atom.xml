@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://younglighting.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-04T06:58:21.695Z</updated>
+    <updated>2020-07-06T10:50:31.942Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://younglighting.github.io"/>
     <link rel="self" href="https://younglighting.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://younglighting.github.io/images/avatar.png</logo>
     <icon>https://younglighting.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[Python]]></title>
+        <id>https://younglighting.github.io/post/python/</id>
+        <link href="https://younglighting.github.io/post/python/">
+        </link>
+        <updated>2020-07-06T10:09:46.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>input（） 先打印括号内内容，等用户输入内容再向下兼容</li>
+<li>引入模块
+<ul>
+<li>random模块 文件开头导入模块<code>import random</code>，接着<code>secret=random.randint(1,10)</code>，引入1-10的随机整数。猜数字游戏代码块为下</li>
+</ul>
+</li>
+</ul>
+<pre><code>import random
+secret = random.randint(1,10)
+print(&quot;*****i love fishc.com*****&quot;)
+temp = input(&quot;猜个数字?&quot;)
+guess = int(temp)
+if guess == secret: 
+         print (&quot;猜对了&quot;)
+else:
+     if guess&gt;secret:
+               print(&quot;大大大了&quot;)
+     else:
+               print(&quot;小了小了&quot;)              
+while guess!=secret:
+     temp = input(&quot;不对哦，再试一次?&quot;)
+     guess = int(temp)
+     if guess == secret: 
+         print (&quot;猜对了&quot;)
+     else:
+          if guess&gt;secret:
+               print(&quot;大大大了&quot;)
+          else:
+               print(&quot;小了小了&quot;)
+print(&quot;game over&quot;)
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[流水账——大家就别看了]]></title>
         <id>https://younglighting.github.io/post/liu-shui-zhang-da-jia-jiu-bie-kan-liao/</id>
@@ -47,7 +87,7 @@
 </ul>
 <h1 id="第三部成果">第三部：成果</h1>
 <p>设置完就能删除原来的桌面图标啦<br>
-<img src="https://younglighting.github.io/post-images/1593587049796.png" alt="" loading="lazy"></p>
+<img src="https://younglighting.github.io/post-images/1593587049796.png" alt="" title="效果图" loading="lazy"></p>
 ]]></content>
     </entry>
 </feed>
