@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://younglighting.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-06T15:05:16.774Z</updated>
+    <updated>2020-07-07T02:33:30.883Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://younglighting.github.io"/>
     <link rel="self" href="https://younglighting.github.io/atom.xml"/>
@@ -74,7 +74,8 @@ print(&quot;game over&quot;)
 <li><code>for 目标 in 表达式：循环体</code>目标会遍历表达式中每个元素，表达式可以是字符串和列表。</li>
 <li><code>range(start,stop,step)</code>输出一个列表，从start开始到stop-1为止（不输入start默认从0开始到stop-1为止）step为步长即相邻两个数之间的差值。</li>
 <li><code>break</code>  退出循环体；<code>continue</code>跳出本次循环进入下一次循环</li>
-<li>009完成</li>
+<li><code>列表名.append()</code>在列表最后一位添加元素，<code>列表名.extend([])</code>在列表后插入另一列表内元素，<code>列表名.insert(a,b)</code>在列表位置a处插入b元素</li>
+<li>010完成</li>
 </ul>
 </li>
 </ul>
