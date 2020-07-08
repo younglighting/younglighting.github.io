@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://younglighting.github.io/favicon.ico?v=1594097003103">
+<link rel="shortcut icon" href="https://younglighting.github.io/favicon.ico?v=1594220894998">
 <link rel="stylesheet" href="https://younglighting.github.io/styles/main.css">
 
 
@@ -19,10 +19,10 @@
 
 
     <meta name="description" content="
-input（） 先打印括号内内容，等用户输入内容再向下兼容
+input（） 先打印括号内内容，等用户输入内容再进行下一步
 引入模块
 
-random模块 文件开头导入模块import random，接着secret=random.randint(1,10)，引入1-10的随机整数。猜数字游戏代码块为下..." />
+random模块 文件开头导入模块import random，接着secret=random.randint(1,10)，引入1-10的随机整数。猜数字游戏代码块为..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -32,7 +32,7 @@ random模块 文件开头导入模块import random，接着secret=random.randint
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://younglighting.github.io">
-        <img src="https://younglighting.github.io/images/avatar.png?v=1594097003103" class="site-logo">
+        <img src="https://younglighting.github.io/images/avatar.png?v=1594220894998" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -93,7 +93,7 @@ random模块 文件开头导入模块import random，接着secret=random.randint
             
             <div class="post-content" v-pre>
               <ul>
-<li><code>input（）</code> 先打印括号内内容，等用户输入内容再向下兼容</li>
+<li><code>input（）</code> 先打印括号内内容，等用户输入内容再进行下一步</li>
 <li>引入模块
 <ul>
 <li>random模块 文件开头导入模块<code>import random</code>，接着<code>secret=random.randint(1,10)</code>，引入1-10的随机整数。猜数字游戏代码块为下</li>
@@ -159,7 +159,12 @@ print(&quot;game over&quot;)
 </ul>
 </li>
 <li>列表切片<code>列表名[a:b]</code>不改变原列表，输出元素从a处开始到b处前一位元素止的新列表，a不填默认从0处开始，b不填默认一直输出到原列表最后一位。</li>
-<li>011完成</li>
+<li><code>列表名.count(a)</code>统计列表中a出现的次数</li>
+<li><code>列表名.index(a,b,c)</code>查询列表中a首次出现位置，b-c为查询范围，不填默认是整个列表</li>
+<li><code>列表名.reverse()</code>列表倒序</li>
+<li><code>列表名.sort()</code>将列表中的元素按一定规则排序，默认从小到大。</li>
+<li>采用extend方法拓展的列表类似于指针，所有指向此列表的变量均会改变。</li>
+<li>013完成</li>
 </ul>
 </li>
 </ul>
